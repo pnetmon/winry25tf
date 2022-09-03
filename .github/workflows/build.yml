@@ -1,0 +1,40 @@
+name: Build QMK firmware
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: qmkfm/qmk_cli
+    strategy:
+      fail-fast: false
+      matrix:
+# List of keymap json files to build
+        file:
+        - pnetmon.json
+# End of json file list
+
+    steps:
+
+    - name: Checkout QMK
+      uses: actions/checkout@v3
+      with:
+        repository: qmk/qmk_firmware
+        submodules: recursive
+
+    - name: Checkout userspace
+      uses: actions/checkout@v3
+      with:
+        path: users/${{ github.actor }}
+
+    - name: Build firmware
+      run: qmk compile "users/${{ github.actor }}/${{ matrix.file }}"
+
+    - name: Archive firmware
+      uses: actions/upload-artifact@v3
+      continue-on-error: true
+      with:
+        name: ${{ matrix.file }}_${{ github.actor }}
+        path: |
+          *.hex
+          *.bin
+          *.uf2
