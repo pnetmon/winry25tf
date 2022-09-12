@@ -17,7 +17,7 @@
 
 #pragma once
 
-// rules.mk if VIAL_INSECURE = yes - выключает блокировку
+// if rules.mk VIAL_INSECURE = yes - turns off the lock
 #define VIAL_KEYBOARD_UID {0xBF, 0x74, 0xE7, 0xE4, 0x65, 0xBB, 0xAD, 0x72} 
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 4 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 4 } 
