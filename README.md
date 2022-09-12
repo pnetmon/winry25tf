@@ -5,7 +5,7 @@ The seller supplies a file that works in Via and Vial.
 
 This version
 - different layout
-- indication Num losk,
+- indication Num lock,
 - layer indication on the layer enable button.
 
 Warrning !!!
