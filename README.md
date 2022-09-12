@@ -7,4 +7,6 @@ This version
 - different layout
 - indication Num losk,
 - layer indication on the layer enable button.
+
+Warrning !!!
 Compiling for Vial breaks Via's work with macros.
