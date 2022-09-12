@@ -1,4 +1,4 @@
-/* Copyright 2022 Nikolay Nazarov (pnetmon@gmail.com)
+/* Copyright 2022 Nikolay Nazarov
  */
 
 

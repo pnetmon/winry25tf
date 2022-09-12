@@ -1,4 +1,4 @@
-/* Copyright 2022 Nikolay Nazarov (pnetmon@gmail.com)
+/* Copyright 2022 Nikolay Nazarov
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
