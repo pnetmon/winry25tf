@@ -3,8 +3,8 @@ SpiderIsland (DEBROGLIE) 25 key
 
 The seller supplies a file that works in Via and Vial.
 
-This version
-- different layout
+This version:
+- different layout,
 - indication Num lock,
 - layer indication on the layer enable button.
 
