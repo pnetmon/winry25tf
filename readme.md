@@ -24,7 +24,8 @@ https://world.taobao.com/item/599731303104.htm
 
 Make example for this keyboard (after setting up your build environment):
 
-    make winry/winry25tf:default
+    make winry/winry25tf/rgb:default
+    make winry/winry25tf/rgb:vial-num_kp
 
 **Reset Key**: Located on the other side of the keyboard.
 
