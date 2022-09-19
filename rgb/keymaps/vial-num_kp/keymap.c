@@ -29,17 +29,17 @@ enum my_layers {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [layer0] = LAYOUT(
-        KC_ESC,  KC_NLCK, KC_PSLS, KC_PAST, KC_PMNS,
-        RGB_TOG, KC_P7,   KC_P8,   KC_P9,   KC_PPLS,
-        RGB_MOD, KC_P4,   KC_P5,   KC_P6,   KC_PPLS,
-        KC_P0,   KC_P1,   KC_P2,   KC_P3,   MO(layer1),
-        KC_P0,   KC_P0,   KC_P0,   KC_PDOT, KC_PENT
+        KC_ESC,  KC_NLCK,  KC_PSLS, KC_PAST, KC_PMNS,
+        KC_BSPC, KC_P7,    KC_P8,   KC_P9,   KC_PPLS,
+        RGB_TOG, KC_P4,    KC_P5,   KC_P6,   KC_PPLS,
+        KC_P0,   KC_P1,    KC_P2,   KC_P3,   MO(layer1),
+        KC_COPY, KC_PASTE, KC_P0,   KC_PDOT, KC_PENT
     ),
     [layer1] = LAYOUT(
         RGB_TOG,    RGB_MOD,    RGB_RMOD,   RGB_M_P, RGB_HUI,
         RGB_VAI,    RGB_SAI,    RGB_HUI,    RGB_SPI, RGB_M_B,
         RGB_VAD,    RGB_SAD,    RGB_HUD,    RGB_SPD, KC_NO,
-        TG(layer2), TG(layer3), TG(layer4), KC_NO,   _______,
+        TG(layer2), TG(layer3), TG(layer4), KC_NO,   KC_NO,
         TG(layer5), TG(layer6), TG(layer7), KC_NO,   KC_NO
     ),
     [layer2] = LAYOUT(
@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 #define RGBLIGHT_LAYERS
 
 const rgblight_segment_t PROGMEM my_layer_num[] = RGBLIGHT_LAYER_SEGMENTS(
-    {21, 1, HSV_BLUE}, // Light 1 LED, starting with LED 21 when Num Losk is active
+    {21, 1, HSV_AZURE}, // Light 1 LED, starting with LED 21 when Num Losk is active
     {12, 1, HSV_GREEN}
 );
 const rgblight_segment_t PROGMEM my_layer1_layer[] = RGBLIGHT_LAYER_SEGMENTS(
@@ -118,7 +118,29 @@ const rgblight_segment_t PROGMEM my_layer6_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {15, 1, HSV_AZURE}
 );
 const rgblight_segment_t PROGMEM my_layer7_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {14, 1, HSV_AZURE}
+    {14, 1, HSV_AZURE},
+    {0, 1, HSV_AZURE},
+    {1, 1, HSV_BLUE},
+    {2, 1, HSV_CHARTREUSE},
+    {3, 1, HSV_CORAL},
+    {4, 1, HSV_CYAN},
+    {5, 1, HSV_GOLD},
+    {6, 1, HSV_GOLDENROD},
+    {7, 1, HSV_GREEN},
+    {8, 1, HSV_MAGENTA},
+    {9, 1, HSV_ORANGE},
+    {10, 1, HSV_PINK},
+    {11, 1, HSV_PURPLE},
+    {13, 1, HSV_RED},
+    {15, 1, HSV_ORANGE},
+    {16, 1, HSV_PINK},
+    {17, 1, HSV_PURPLE},
+    {18, 1, HSV_RED},
+    {19, 1, HSV_SPRINGGREEN},
+    {20, 1, HSV_TEAL},
+    {22, 1, HSV_TURQUOISE},
+    {23, 1, HSV_WHITE},
+    {24, 1, HSV_YELLOW}
 );
 
 enum rgb_layer_index {
