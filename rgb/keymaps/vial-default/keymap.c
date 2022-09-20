@@ -21,22 +21,26 @@ enum my_layers {
     layer1,
     layer2,
     layer3,
+    layer4,
+    layer5,
+    layer6,
+    layer7,
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [layer0] = LAYOUT(
-        KC_ESC,  KC_NLCK, KC_PSLS, KC_PAST, KC_PMNS,
-        RGB_TOG, KC_P7,   KC_P8,   KC_P9,   KC_PPLS,
-        RGB_MOD, KC_P4,   KC_P5,   KC_P6,   KC_PPLS,
-        KC_P0,   KC_P1,   KC_P2,   KC_P3,   MO(layer1),
-        KC_P0,   KC_P0,   KC_P0,   KC_PDOT, KC_PENT
+        KC_ESC,  KC_NLCK,  KC_PSLS, KC_PAST, KC_PMNS,
+        KC_BSPC, KC_P7,    KC_P8,   KC_P9,   KC_PPLS,
+        RGB_TOG, KC_P4,    KC_P5,   KC_P6,   KC_PPLS,
+        KC_NO,   KC_P1,    KC_P2,   KC_P3,   MO(layer1),
+        KC_COPY, KC_PASTE, KC_P0,   KC_PDOT, KC_PENT
     ),
     [layer1] = LAYOUT(
         RGB_TOG,    RGB_MOD,    RGB_RMOD,   RGB_M_P, RGB_HUI,
         RGB_VAI,    RGB_SAI,    RGB_HUI,    RGB_SPI, RGB_M_B,
         RGB_VAD,    RGB_SAD,    RGB_HUD,    RGB_SPD, KC_NO,
-        TG(layer2), TG(layer3), TG(layer2), KC_NO,   _______,
-        TG(layer2), TG(layer3), TG(layer2), KC_NO,   KC_NO
+        TG(layer2), TG(layer3), TG(layer4), KC_NO,   KC_NO,
+        TG(layer5), TG(layer6), TG(layer7), KC_NO,   KC_NO
     ),
     [layer2] = LAYOUT(
         KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
@@ -46,11 +50,38 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
     ),
     [layer3] = LAYOUT(
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, KC_P3,   _______,
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, _______, TO(layer0),
-        _______, _______, _______, _______, _______
+        KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_P3,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   TO(layer0),
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
+    ),
+    [layer4] = LAYOUT(
+        KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_P4,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   TO(layer0),
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
+    ),
+    [layer5] = LAYOUT(
+        KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_P5,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   TO(layer0),
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
+    ),
+    [layer6] = LAYOUT(
+        KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_P6,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   TO(layer0),
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
+    ),
+    [layer7] = LAYOUT(
+        KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_P7,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   TO(layer0),
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
     )
 };
-

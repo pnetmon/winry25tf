@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ESC,  KC_NLCK,  KC_PSLS, KC_PAST, KC_PMNS,
         KC_BSPC, KC_P7,    KC_P8,   KC_P9,   KC_PPLS,
         RGB_TOG, KC_P4,    KC_P5,   KC_P6,   KC_PPLS,
-        KC_P0,   KC_P1,    KC_P2,   KC_P3,   MO(layer1),
+        KC_NO,   KC_P1,    KC_P2,   KC_P3,   MO(layer1),
         KC_COPY, KC_PASTE, KC_P0,   KC_PDOT, KC_PENT
     ),
     [layer1] = LAYOUT(
@@ -50,39 +50,39 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
     ),
     [layer3] = LAYOUT(
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, KC_P3,   _______,
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, _______, TO(layer0),
-        _______, _______, _______, _______, _______
+        KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_P3,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   TO(layer0),
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
     ),
     [layer4] = LAYOUT(
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, KC_P4,   _______,
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, _______, TO(layer0),
-        _______, _______, _______, _______, _______
+        KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_P4,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   TO(layer0),
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
     ),
     [layer5] = LAYOUT(
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, KC_P5,   _______,
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, _______, TO(layer0),
-        _______, _______, _______, _______, _______
+        KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_P5,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   TO(layer0),
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
     ),
     [layer6] = LAYOUT(
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, KC_P6,   _______,
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, _______, TO(layer0),
-        _______, _______, _______, _______, _______
+        KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_P6,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   TO(layer0),
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
     ),
     [layer7] = LAYOUT(
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, KC_P7,   _______,
-        _______, _______, _______, _______, _______,
-        _______, _______, _______, _______, TO(layer0),
-        _______, _______, _______, _______, _______
+        KC_ESC,  KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_P7,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   TO(layer0),
+        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO
     )
 };
 
