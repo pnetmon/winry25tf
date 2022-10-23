@@ -9,6 +9,8 @@ This version:
 - indication Num lock,
 - layer indication on the layer enable button.
 
+Example - https://youtu.be/CNF1vn-M7WM
+
 Warrning !!!
 Compiling for Vial breaks Via's work with macros.
 
