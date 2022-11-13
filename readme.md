@@ -1,6 +1,6 @@
 # Winry 25-key RGB Backlight Hot Swap Mechanical Keyboard
 
-SpiderIsland (DEBROGLIE) 25 key
+SpiderIsland 25 key (DEBROGLIE Lightning-25)
 
 The seller supplies a file that works in Via and Vial.
 

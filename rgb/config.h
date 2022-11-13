@@ -1,4 +1,4 @@
-/* Copyright 2022 Nikolay Nazarov 
+/* Copyright 2022 Nikolay N 
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,8 +18,8 @@
 /* The pin connected to the data pin of the LEDs */
 #define RGB_DI_PIN D5
 
-/* Number of LEDs 25 key and 15 down side */  
-#define RGBLED_NUM 40         
+/* Number of LEDs 25 key and 8 or ???15 down side */  
+#define RGBLED_NUM 33         
               
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8

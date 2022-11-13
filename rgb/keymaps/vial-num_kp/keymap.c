@@ -1,4 +1,4 @@
-/* Copyright 2022 Nikolay Nazarov
+/* Copyright 2022 Nikolay N
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -91,7 +91,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 const rgblight_segment_t PROGMEM my_layer_num[] = RGBLIGHT_LAYER_SEGMENTS(
     {21, 1, HSV_AZURE}, // Light 1 LED, starting with LED 21 when Num Losk is active
-    {12, 1, HSV_GREEN}
+    {12, 1, HSV_GREEN},
+    {16, 1, HSV_GREEN}
 );
 const rgblight_segment_t PROGMEM my_layer1_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {11, 1, HSV_AZURE}
@@ -140,7 +141,15 @@ const rgblight_segment_t PROGMEM my_layer7_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {20, 1, HSV_TEAL},
     {22, 1, HSV_TURQUOISE},
     {23, 1, HSV_WHITE},
-    {24, 1, HSV_YELLOW}
+    {24, 1, HSV_YELLOW},
+    {25, 1, HSV_BLUE},
+    {26, 1, HSV_GREEN},
+    {27, 1, HSV_RED},
+    {28, 1, HSV_MAGENTA},
+    {29, 1, HSV_CYAN},
+    {30, 1, HSV_PINK},
+    {31, 1, HSV_YELLOW},
+    {32, 1, HSV_WHITE}
 );
 
 enum rgb_layer_index {
