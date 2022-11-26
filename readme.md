@@ -9,12 +9,12 @@ This version
 - layer indication
 - turn off the backlight when putting into sleep mode or turning off the computer
 
-Version vial-num_kp - digital block is on the right (Num button is second in the top row)
-Version vial-num_kp-A1 - digital block is on the left (Num button is the first in the top row)
+- Version vial-num_kp - digital block is on the right (Num button is second in the top row).
+-  Version vial-num_kp-A1 - digital block is on the left (Num button is the first in the top row).
 
 .hex examples for uploading firmware using QMK Toolbox
-Version Num - B2 - winry_winry25tf_rgb_vial-num_kp.hex
-Version Num - A1 - winry_winry25tf_rgb_vial-num_kp-A1.hex
+- Version Num - B2 - winry_winry25tf_rgb_vial-num_kp.hex
+- Version Num - A1 - winry_winry25tf_rgb_vial-num_kp-A1.hex
 
 Video example - https://youtu.be/CNF1vn-M7WM
 
@@ -28,12 +28,13 @@ Compiling for Vial broke macros in Via
 - индикация слоя 
 - выключение подсветки при переводе в спящий режим или выключении компьютера
 
-Версия vial-num_kp - цифровой блок находится справа (кнопка Num - вторая в верхнем ряду) 
-Версия vial-num_kp-A1 - цифровой блок находится слева (кнопка Num - первая в верхнем ряду)
+- Версия vial-num_kp - цифровой блок находится справа (кнопка Num - вторая в верхнем ряду).
+- Версия vial-num_kp-A1 - цифровой блок находится слева (кнопка Num - первая в верхнем ряду).
+
 
 Примеры .hex для заливки прошивки используя QMK Toolbox
-Version Num - B2 - winry_winry25tf_rgb_vial-num_kp.hex
-Version Num - A1 - winry_winry25tf_rgb_vial-num_kp-A1.hex
+- Version Num - B2 - winry_winry25tf_rgb_vial-num_kp.hex
+- Version Num - A1 - winry_winry25tf_rgb_vial-num_kp-A1.hex
 
 Пример на видео - https://youtu.be/CNF1vn-M7WM
 
