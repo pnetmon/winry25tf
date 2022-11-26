@@ -21,24 +21,24 @@ Video example - https://youtu.be/CNF1vn-M7WM
 Attention !!!
 Compiling for Vial broke macros in Via
 
-╧ЁюфртхЎ яЁхфюёЄрты хЄ Їрщы√ ЁрсюЄр■∙шх ё Via ш Vial
+Продавец предоставляет файлы работающие с Via и Vial
 
-▌Єр тхЁёш 
-- шэфшърЎш  Num lock
-- шэфшърЎш  ёыю  
-- т√ъы■ўхэшх яюфётхЄъш яЁш яхЁхтюфх т ёя ∙шщ Ёхцшь шыш т√ъы■ўхэшш ъюья№■ЄхЁр
+Эта версия
+- индикация Num lock
+- индикация слоя 
+- выключение подсветки при переводе в спящий режим или выключении компьютера
 
-┬хЁёш  vial-num_kp - ЎшЇЁютющ сыюъ эрїюфшЄё  ёяЁртр (ъэюяър Num - тЄюЁр  т тхЁїэхь Ё фє) 
-┬хЁёш  vial-num_kp-A1 - ЎшЇЁютющ сыюъ эрїюфшЄё  ёыхтр (ъэюяър Num - яхЁтр  т тхЁїэхь Ё фє)
+Версия vial-num_kp - цифровой блок находится справа (кнопка Num - вторая в верхнем ряду) 
+Версия vial-num_kp-A1 - цифровой блок находится слева (кнопка Num - первая в верхнем ряду)
 
-╧ЁшьхЁ√ .hex фы  чрыштъш яЁю°штъш шёяюы№чє  QMK Toolbox
+Примеры .hex для заливки прошивки используя QMK Toolbox
 Version Num - B2 - winry_winry25tf_rgb_vial-num_kp.hex
 Version Num - A1 - winry_winry25tf_rgb_vial-num_kp-A1.hex
 
-╧ЁшьхЁ эр тшфхю - https://youtu.be/CNF1vn-M7WM
+Пример на видео - https://youtu.be/CNF1vn-M7WM
 
-┬эшьрэшх !!!
-╩юьяшы Ўш  фы  Vial ёыюьрыр ЁрсюЄє ьръЁюёют т Via
+Внимание !!!
+Компиляция для Vial сломала работу макросов в Via
 
 Keyboard from
 * [SpiderIsland on AliExpress(reseller)](https://a.aliexpress.com/_dVJsSpR). Seller provides [kbfirmware](https://kbfirmware.com/) JSON config that was converted to QMK.
