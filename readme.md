@@ -9,11 +9,8 @@ This version
 - layer indication
 - turn off the backlight when putting into sleep mode or turning off the computer
 
-- Version vial-num_kp - digital block on the right (Num button - second in the top row (B1)).
-- Version vial-num_kp-A1 - digital block on the left (Num button - first in the top row (A1)).
-
 .hex examples for uploading firmware using QMK Toolbox
-- Version of the digital block on the right (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
+- version of the digital block on the right (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
 - version of the digital block on the left (Num lock - A1) - winry_winry25tf_rgb_vial-num_kp-A1.hex
 
 Attention !!!
@@ -28,12 +25,8 @@ Video example - https://youtu.be/CNF1vn-M7WM
 - индикация слоя 
 - выключение подсветки при переводе в спящий режим или выключении компьютера
 
-- Версия vial-num_kp - цифровой блок справа (кнопка Num - вторая в верхнем ряду (B1)).
-- Версия vial-num_kp-A1 - цифровой блок слева (кнопка Num - первая в верхнем ряду (A1)).
-
-
-Примеры .hex для заливки прошивки используя QMK Toolbox
-- Версия цифровой блок справа (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
+Примеры .hex для заливки прошивки используя QMK Toolbox:
+- версия цифровой блок справа (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
 - версия цифровой блок слева (Num lock - A1) - winry_winry25tf_rgb_vial-num_kp-A1.hex
 
 Внимание !!!
