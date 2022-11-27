@@ -99,8 +99,10 @@ const rgblight_segment_t PROGMEM my_layer1_layer[] = RGBLIGHT_LAYER_SEGMENTS(
 );
 const rgblight_segment_t PROGMEM my_layer2_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {17, 1, HSV_AZURE}, // Light 1 LED, starting with LED 17 when keyboard layer 2 is active
-    {24, 1, HSV_GREEN}, 
+    {24, 1, HSV_GREEN}
+/*, 
     {20, 1, HSV_GREEN} 
+*/
 );
 const rgblight_segment_t PROGMEM my_layer3_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {4, 1, HSV_AZURE},
@@ -119,17 +121,18 @@ const rgblight_segment_t PROGMEM my_layer6_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {15, 1, HSV_AZURE}
 );
 const rgblight_segment_t PROGMEM my_layer7_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {14, 1, HSV_AZURE},
-    {0, 1, HSV_AZURE},
-    {1, 1, HSV_BLUE},
-    {2, 1, HSV_CHARTREUSE},
-    {3, 1, HSV_CORAL},
-    {4, 1, HSV_CYAN},
-    {5, 1, HSV_GOLD},
-    {6, 1, HSV_GOLDENROD},
-    {7, 1, HSV_GREEN},
-    {8, 1, HSV_MAGENTA},
-    {9, 1, HSV_ORANGE},
+    {14, 1, HSV_AZURE}
+/*,
+     {0, 1, HSV_AZURE},
+     {1, 1, HSV_BLUE},
+     {2, 1, HSV_CHARTREUSE},
+     {3, 1, HSV_CORAL},
+     {4, 1, HSV_CYAN},
+     {5, 1, HSV_GOLD},
+     {6, 1, HSV_GOLDENROD},
+     {7, 1, HSV_GREEN},
+     {8, 1, HSV_MAGENTA},
+     {9, 1, HSV_ORANGE},
     {10, 1, HSV_PINK},
     {11, 1, HSV_PURPLE},
     {13, 1, HSV_RED},
@@ -150,6 +153,7 @@ const rgblight_segment_t PROGMEM my_layer7_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {30, 1, HSV_PINK},
     {31, 1, HSV_YELLOW},
     {32, 1, HSV_WHITE}
+*/
 );
 
 enum rgb_layer_index {

@@ -117,37 +117,7 @@ const rgblight_segment_t PROGMEM my_layer6_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {15, 1, HSV_AZURE}
 );
 const rgblight_segment_t PROGMEM my_layer7_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {14, 1, HSV_AZURE},
-    {0, 1, HSV_AZURE},
-    {1, 1, HSV_BLUE},
-    {2, 1, HSV_CHARTREUSE},
-    {3, 1, HSV_CORAL},
-    {4, 1, HSV_CYAN},
-    {5, 1, HSV_GOLD},
-    {6, 1, HSV_GOLDENROD},
-    {7, 1, HSV_GREEN},
-    {8, 1, HSV_MAGENTA},
-    {9, 1, HSV_ORANGE},
-    {10, 1, HSV_PINK},
-    {11, 1, HSV_PURPLE},
-    {13, 1, HSV_RED},
-    {15, 1, HSV_ORANGE},
-    {16, 1, HSV_PINK},
-    {17, 1, HSV_PURPLE},
-    {18, 1, HSV_RED},
-    {19, 1, HSV_SPRINGGREEN},
-    {20, 1, HSV_TEAL},
-    {22, 1, HSV_TURQUOISE},
-    {23, 1, HSV_WHITE},
-    {24, 1, HSV_YELLOW},
-    {25, 1, HSV_BLUE},
-    {26, 1, HSV_GREEN},
-    {27, 1, HSV_RED},
-    {28, 1, HSV_MAGENTA},
-    {29, 1, HSV_CYAN},
-    {30, 1, HSV_PINK},
-    {31, 1, HSV_YELLOW},
-    {32, 1, HSV_WHITE}
+    {14, 1, HSV_AZURE}
 );
 
 enum rgb_layer_index {
