@@ -15,4 +15,4 @@ COMMAND_ENABLE = no        # Commands for debug and configuration
 NKRO_ENABLE = no            # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 
-KEY_LOCK_ENABLE = yes     # Enable KC_LOCK support
+KEY_LOCK_ENABLE = yes     # Enable KC_LOCK support (QK_LOCK)
