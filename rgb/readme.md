@@ -1,10 +1,10 @@
 
 # WARNING !!!
-Via - macros not working
-Vial - macros work
+* Via - macros not working
+* Vial - macros work
 
-Led
-Led top side (top view)
+# Led
+* Led top side (top view)
 ```
 20 21 22 23 24
 19  6  7  8  9
@@ -13,7 +13,7 @@ Led top side (top view)
 16 15 14 13 12
 ```
 
-Led down side (top view)
+* Led down side (top view)
 ```
    32  25
 31        26  
