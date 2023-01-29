@@ -2,6 +2,8 @@
 
 SpiderIsland 25 key (DEBROGLIE Lightning-25)
 
+The file Winry25T_via.json from the seller contained "name": "Winry25T", "vendorId": "0xF1F1", "productId": "0x0025"
+
 Description in Russian ( Описание на русском ) - readme-ru.md
 
 The seller provides files that work with Via and Vial
