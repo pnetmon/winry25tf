@@ -2,6 +2,8 @@
 
 SpiderIsland 25 key (DEBROGLIE Lightning-25)
 
+Description in Russian ( Описание на русском ) - readme-ru.md
+
 The seller provides files that work with Via and Vial
 
 This version
@@ -9,28 +11,19 @@ This version
 - layer indication
 - turn off the backlight when putting into sleep mode or turning off the computer
 
-.hex examples for uploading firmware using QMK Toolbox
-- version of the digital block on the right (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
-- version of the digital block on the left (Num lock - A1) - winry_winry25tf_rgb_vial-num_kp-A1.hex
+Video example - https://youtu.be/CNF1vn-M7WM
 
 Attention !!!
 Compiling for Vial broke macros in Via
 
-Video example - https://youtu.be/CNF1vn-M7WM
+.hex examples for uploading firmware using QMK Toolbox
+- version of the digital block on the right (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
+- version of the digital block on the left (Num lock - A1) - winry_winry25tf_rgb_vial-num_kp-A1.hex
 
-Продавец предоставляет файлы работающие с Via и Vial
-
-Эта версия
-- индикация Num lock
-- индикация слоя 
-- выключение подсветки при переводе в спящий режим или выключении компьютера
-
-Примеры .hex для заливки прошивки используя QMK Toolbox:
-- версия цифровой блок справа (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
-- версия цифровой блок слева (Num lock - A1) - winry_winry25tf_rgb_vial-num_kp-A1.hex
-
-Внимание !!!
-Компиляция для Vial сломала работу макросов в Via
+To install hex files, you need to
+1) QMK Toolboox for uploading (it is also necessary to install drivers) https://github.com/qmk/qmk_toolbox
+2) Vial to configure keys and macros https://get.vial.today/
+It is not necessary to install QMK itself.
 
 Keyboard from
 * [SpiderIsland on AliExpress(reseller)](https://a.aliexpress.com/_dVJsSpR). Seller provides [kbfirmware](https://kbfirmware.com/) JSON config that was converted to QMK.
