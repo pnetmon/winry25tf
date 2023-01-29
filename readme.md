@@ -20,10 +20,9 @@ Compiling for Vial broke macros in Via
 - version of the digital block on the right (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
 - version of the digital block on the left (Num lock - A1) - winry_winry25tf_rgb_vial-num_kp-A1.hex
 
-To install hex files, you need to
+To install hex files, you need to (it is not necessary to install QMK itself)
 1) QMK Toolboox for uploading (it is also necessary to install drivers) https://github.com/qmk/qmk_toolbox
 2) Vial to configure keys and macros https://get.vial.today/
- It is not necessary to install QMK itself.
 
 Keyboard from
 * [SpiderIsland on AliExpress(reseller)](https://a.aliexpress.com/_dVJsSpR). Seller provides [kbfirmware](https://kbfirmware.com/) JSON config that was converted to QMK.
