@@ -23,7 +23,7 @@ Compiling for Vial broke macros in Via
 To install hex files, you need to
 1) QMK Toolboox for uploading (it is also necessary to install drivers) https://github.com/qmk/qmk_toolbox
 2) Vial to configure keys and macros https://get.vial.today/
-It is not necessary to install QMK itself.
+ It is not necessary to install QMK itself.
 
 Keyboard from
 * [SpiderIsland on AliExpress(reseller)](https://a.aliexpress.com/_dVJsSpR). Seller provides [kbfirmware](https://kbfirmware.com/) JSON config that was converted to QMK.
