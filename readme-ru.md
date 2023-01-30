@@ -22,6 +22,6 @@ SpiderIsland 25 key (DEBROGLIE Lightning-25)
 - версия цифровой блок справа (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
 - версия цифровой блок слева (Num lock - A1) - winry_winry25tf_rgb_vial-num_kp-A1.hex
 
-Для установки hex файлов необходимо (нет необходимости устанавливаться сам QMK)
+Для установки hex файлов необходимо (QMK для этого устанавливать не нужно)
 1) QMK Toolboox для  заливки (так же необходимо поставить драйвера) https://github.com/qmk/qmk_toolbox
 2) Vial для настройки клавиш и макросов https://get.vial.today/

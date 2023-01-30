@@ -1,8 +1,3 @@
-
-# WARNING !!!
-* Via - macros not working
-* Vial - macros work
-
 # Led
 * Led top side (top view)
 ```
