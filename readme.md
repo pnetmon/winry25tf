@@ -26,8 +26,8 @@ where
 
 To install hex files, you need to (it is not necessary to install QMK itself)
 - QMK Toolboox for uploading (it is also necessary to install drivers) https://github.com/qmk/qmk_toolbox
--- VIA  to configure keys and macros https://usevia.app/#/
--- Vial to configure keys and macros https://get.vial.today/
+- VIA  to configure keys and macros https://usevia.app/#/
+- Vial to configure keys and macros https://get.vial.today/
 
 
 Keyboard from
