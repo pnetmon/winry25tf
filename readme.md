@@ -15,6 +15,7 @@ This version
 
 Video example - https://youtu.be/CNF1vn-M7WM
 
+```
 .hex examples for uploading firmware using QMK Toolbox
 VIA - via-num_kp.hex and via-num_kp-A1.hex (https://github.com/qmk/qmk_firmware) 
 Vial - vial-num_kp.hex and vial-num_kp-A1.hex (https://github.com/vial-kb/vial-qmk) (Attention !!! Compiling for Vial broke macros in Via)
@@ -27,6 +28,7 @@ To install hex files, you need to (it is not necessary to install QMK itself)
 2)
 * VIA  to configure keys and macros https://usevia.app/#/
 * Vial to configure keys and macros https://get.vial.today/
+```
 
 Keyboard from
 * [SpiderIsland on AliExpress(reseller)](https://a.aliexpress.com/_dVJsSpR). Seller provides [kbfirmware](https://kbfirmware.com/) JSON config that was converted to QMK.
