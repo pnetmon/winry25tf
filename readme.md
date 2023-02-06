@@ -15,16 +15,18 @@ This version
 
 Video example - https://youtu.be/CNF1vn-M7WM
 
-Attention !!!
-Compiling for Vial broke macros in Via
-
 .hex examples for uploading firmware using QMK Toolbox
-- version of the digital block on the right (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
-- version of the digital block on the left (Num lock - A1) - winry_winry25tf_rgb_vial-num_kp-A1.hex
+VIA - via-num_kp.hex and via-num_kp-A1.hex (https://github.com/qmk/qmk_firmware) 
+Vial - vial-num_kp.hex and vial-num_kp-A1.hex (https://github.com/vial-kb/vial-qmk) (Attention !!! Compiling for Vial broke macros in Via)
+where
+- version of the digital block on the right (Num lock - B1) - ...num_kp.hex
+- version of the digital block on the left (Num lock - A1) - ...num_kp-A1.hex
 
 To install hex files, you need to (it is not necessary to install QMK itself)
 1) QMK Toolboox for uploading (it is also necessary to install drivers) https://github.com/qmk/qmk_toolbox
-2) Vial to configure keys and macros https://get.vial.today/
+2)
+* VIA  to configure keys and macros https://usevia.app/#/
+* Vial to configure keys and macros https://get.vial.today/
 
 Keyboard from
 * [SpiderIsland on AliExpress(reseller)](https://a.aliexpress.com/_dVJsSpR). Seller provides [kbfirmware](https://kbfirmware.com/) JSON config that was converted to QMK.
@@ -39,7 +41,6 @@ Make example for this keyboard (after setting up your build environment):
 
     make winry/winry25tf/rgb:default
     make winry/winry25tf/rgb:vial-num_kp
-    make winry/winry25tf/rgb:vial-num_kp-A1
 
 **Reset Key**: Located on the other side of the keyboard.
 

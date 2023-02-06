@@ -2,6 +2,8 @@
     "name": "Winry 25tf",
     "vendorId": "0xF1F1",
     "productId": "0x0025",
+    "keycodes": ["qmk_lighting"],
+    "menus": ["qmk_rgblight"],
     "lighting": "qmk_rgblight",
     "matrix": {
         "rows": 5,
