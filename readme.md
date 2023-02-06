@@ -24,7 +24,7 @@ where
 - version of the digital block on the right (Num lock - B1) - ...num_kp.hex
 - version of the digital block on the left (Num lock - A1) - ...num_kp-A1.hex
 
-To install hex files, you need to (it is not necessary to install QMK itself)
+To install hex files, you need to (it is not necessary to install QMK itself) (clear EEPROM)
 - QMK Toolboox for uploading (it is also necessary to install drivers) https://github.com/qmk/qmk_toolbox
 - VIA  to configure keys and macros https://usevia.app/#/
 - Vial to configure keys and macros https://get.vial.today/
