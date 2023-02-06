@@ -1,4 +1,3 @@
-```
 VIA:
 * SETTINGS
 ** Show Design tab - On
@@ -18,4 +17,3 @@ file from folder seller and (Not recommended vial-num_kp.hex, vial-num_kp-A1.hex
 
 Vial:
 json in firmware
-```
