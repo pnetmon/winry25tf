@@ -15,19 +15,6 @@
  */
 
 
-/* The pin connected to the data pin of the LEDs */
-#define RGB_DI_PIN D5
-
-/* Number of LEDs 25 key and 8 or ???15 down side */  
-#define RGBLED_NUM 33         
-              
-#define RGBLIGHT_HUE_STEP 8
-#define RGBLIGHT_SAT_STEP 8
-#define RGBLIGHT_VAL_STEP 8
-
-/* The maximum brightness level */
-#define RGBLIGHT_LIMIT_VAL 150
-
 #define RGBLIGHT_LAYERS
 
 /* Defining Lighting Layers - by default 8 */

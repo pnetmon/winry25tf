@@ -15,13 +15,19 @@ SpiderIsland 25 key (DEBROGLIE Lightning-25)
 
 Видео с примером работы - https://youtu.be/CNF1vn-M7WM
 
-Внимание !!!
+Примеры .hex для заливки прошивки используя QMK Toolbox:
+
+VIA для настройки клавиш и макросов https://usevia.app/#/
+файл via-....hex
+
+Vial для настройки клавиш и макросов https://get.vial.today/
+файл vial-....hex
 Компиляция для Vial сломала работу макросов в Via
 
-Примеры .hex для заливки прошивки используя QMK Toolbox:
-- версия цифровой блок справа (Num lock - B1) - winry_winry25tf_rgb_vial-num_kp.hex
-- версия цифровой блок слева (Num lock - A1) - winry_winry25tf_rgb_vial-num_kp-A1.hex
+гдн
+- версия цифровой блок справа (Num lock - B1) - ...-num_kp.hex
+- версия цифровой блок слева (Num lock - A1) - ...-num_kp-A1.hex
 
 Для установки hex файлов необходимо (QMK для этого устанавливать не нужно)
-1) QMK Toolboox для  заливки (так же необходимо поставить драйвера) https://github.com/qmk/qmk_toolbox
-2) Vial для настройки клавиш и макросов https://get.vial.today/
+QMK Toolboox для  заливки (так же необходимо поставить драйвера) https://github.com/qmk/qmk_toolbox
+Желательно перед заливкой сделать clear EEPROM.

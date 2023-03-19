@@ -15,20 +15,21 @@ This version
 
 Video example - https://youtu.be/CNF1vn-M7WM
 
-
 .hex examples for uploading firmware using QMK Toolbox
-* VIA - via-num_kp.hex and via-num_kp-A1.hex (https://github.com/qmk/qmk_firmware) 
-* Vial - vial-num_kp.hex and vial-num_kp-A1.hex (https://github.com/vial-kb/vial-qmk) (Attention !!! Compiling for Vial broke macros in Via)
+
+VIA  to configure keys and macros https://usevia.app/#/
+* VIA - via-...hex (https://github.com/qmk/qmk_firmware) 
+
+Vial to configure keys and macros https://get.vial.today/
+* Vial - vial-....hex (https://github.com/vial-kb/vial-qmk) (Attention !!! Compiling for Vial broke macros in Via)
 
 where
 - version of the digital block on the right (Num lock - B1) - ...num_kp.hex
 - version of the digital block on the left (Num lock - A1) - ...num_kp-A1.hex
 
-To install hex files, you need to (it is not necessary to install QMK itself) (clear EEPROM)
-- QMK Toolboox for uploading (it is also necessary to install drivers) https://github.com/qmk/qmk_toolbox
-- VIA  to configure keys and macros https://usevia.app/#/
-- Vial to configure keys and macros https://get.vial.today/
-
+To install hex files, you need to (it is not necessary to install QMK itself)
+QMK Toolboox for uploading (it is also necessary to install drivers) https://github.com/qmk/qmk_toolbox
+(clear EEPROM)
 
 Keyboard from
 * [SpiderIsland on AliExpress(reseller)](https://a.aliexpress.com/_dVJsSpR). Seller provides [kbfirmware](https://kbfirmware.com/) JSON config that was converted to QMK.
