@@ -16,6 +16,7 @@ SpiderIsland 25 key (DEBROGLIE Lightning-25)
 Видео с примером работы - https://youtu.be/CNF1vn-M7WM
 
 Примеры .hex для заливки прошивки используя QMK Toolbox:
+- Выбери что будет использоваться VIA или Vial и где будут цифры: слева или справа.
 
 VIA
 - для настройки клавиш и макросов https://usevia.app/#/
