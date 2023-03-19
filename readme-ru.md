@@ -17,14 +17,17 @@ SpiderIsland 25 key (DEBROGLIE Lightning-25)
 
 Примеры .hex для заливки прошивки используя QMK Toolbox:
 
-VIA для настройки клавиш и макросов https://usevia.app/#/
-файл via-....hex
+VIA
+- для настройки клавиш и макросов https://usevia.app/#/
+- файл via-....hex
+- JSON файл - via_json\via_V3_Winry25T.json
 
-Vial для настройки клавиш и макросов https://get.vial.today/
-файл vial-....hex
-Компиляция для Vial сломала работу макросов в Via
+Vial
+- для настройки клавиш и макросов https://get.vial.today/
+- файл vial-....hex
+- версия для vial некорректно работает c VIA
 
-гдн
+где
 - версия цифровой блок справа (Num lock - B1) - ...-num_kp.hex
 - версия цифровой блок слева (Num lock - A1) - ...-num_kp-A1.hex
 
