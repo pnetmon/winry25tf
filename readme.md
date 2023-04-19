@@ -13,7 +13,7 @@ This version
 - layer indication
 - turn off the backlight when putting into sleep mode or turning off the computer
 
-Video example - https://youtu.be/CNF1vn-M7WM
+Video example - https://youtu.be/Lm8n4Wwc1ok
 
 .hex examples for uploading firmware using QMK Toolbox
 
