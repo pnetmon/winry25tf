@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 #define RGBLIGHT_LAYERS
 
 const rgblight_segment_t PROGMEM my_layer_num[] = RGBLIGHT_LAYER_SEGMENTS(
-    {20, 1, HSV_AZURE}, // Light 1 LED, starting with LED 21 when Num Losk is active
+    {20, 1, HSV_AZURE}, // Light 1 LED, starting with LED 20 when Num Losk is active
     {12, 1, HSV_GREEN}
 );
 const rgblight_segment_t PROGMEM my_layer1_layer[] = RGBLIGHT_LAYER_SEGMENTS(
